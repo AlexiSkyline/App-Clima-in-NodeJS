@@ -36,7 +36,7 @@ const main = async() => {
                 console.log( 'Como está el clima:', clima.desc.green );
                 break;
             case 2:
-                busquedas.historial.forEach(( lugar, i ) => {
+                busquedas.historialCapitalizado.forEach(( lugar, i ) => {
                     const idx = `${ i + 1 }.-`.green;
                     console.log( `${ idx } ${ lugar }`);
                 });
