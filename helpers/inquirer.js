@@ -85,7 +85,7 @@ const listadoLugares = async( lugares = [] ) => {
         {
             type: 'list',
             name: 'id',
-            message: 'Seleciione el Lugar:',
+            message: 'Seleccione el Lugar:',
             choices
         }
     ];
